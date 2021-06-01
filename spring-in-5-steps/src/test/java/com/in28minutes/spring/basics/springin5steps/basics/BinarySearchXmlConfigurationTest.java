@@ -12,6 +12,7 @@ import com.in28minutes.spring.basics.springin5steps.SpringIn5StepsBasicApplicati
 
 //Load the context
 @RunWith(SpringRunner.class)
+//@ContextConfiguration(locations="/ApplicationContext.xml")
 @ContextConfiguration(locations="/testContext.xml")
 public class BinarySearchXmlConfigurationTest {
 
